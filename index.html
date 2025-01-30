@@ -24,7 +24,7 @@
                         clifford: '#da373d',
                         primary: '#ABEF5F',
                         'primary-bg': '#ABEF5F33',
-                        'border-color': 'rgb(233, 233, 233)',
+                        'bordercolor': '#E9E9E9',
 
                     },
                     fontFamily: {
@@ -46,8 +46,8 @@
     </style>
 </head>
 
-<body class="font">
-    <header class="">
+<body class="font max-w-7xl mx-auto ">
+    <header class="max-w-6xl mx-auto">
         <nav class="">
             <div class="navbar bg-base-100 ">
                 <div class="navbar-start">
@@ -87,7 +87,7 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <button class="btn btn-ghost btn-circle sm:hidden">
+                    <button class="btn btn-ghost btn-circle hidden md:inline">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -144,7 +144,7 @@
             </div>
         </section>
     </header>
-    <main class="">
+    <main class="max-w-6xl mx-auto">
         <section class="my-28">
             <!-- section content  -->
             <div class="grid lg:grid-cols-2 gap-2 mx-8 my-10">
@@ -190,7 +190,7 @@
         </section>
         <section class="my-28 ">
             <!-- section content  -->
-            <div class="grid border mx-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 rounded-xl shadow-xl">
+            <div class="grid border border-bordercolor mx-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 rounded-xl shadow-xl">
                 <!-- card 1 -->
                 <div class="flex flex-col items-center my-3 ">
                     <div class="w-10 h-10"> <img src="https://img.icons8.com/carbon-copy/100/chat.png" alt=""
@@ -222,6 +222,7 @@
             </div>
             </div>
         </section>
+        <!-- our services -->
         <section class="my-28">
             <!-- button  -->
             <div class="mx-auto flex justify-center">
@@ -435,11 +436,10 @@
                 </div>
             </div>
         </section>
-        <section class="my-28 bg-input-bg bg-cover h-[700px] ">
+        <section class="mt-28 rounded-lg bg-input-bg bg-cover h-[700px] ">
             <!-- button  -->
             <div class="mx-auto flex justify-center">
-                <button
-                    class="flex items-center shadow-lg px-4 rounded-2xl py-2 font-bold bg-primary-bg my-3 "><img
+                <button class="flex items-center shadow-lg px-4 rounded-2xl py-2 font-bold bg-primary-bg my-3 "><img
                         src="https://img.icons8.com/ios/50/right--v1.png" alt="" class="w-6 ">Let’s Connect</button>
             </div>
             <!-- title text -->
@@ -488,6 +488,34 @@
         </section>
 
     </main>
+    <footer class="bg-black h-[250px]">
+        <!-- content  -->
+        <div class=" md:mx-auto  ">
+            <h3 class="font-bold text-2xl text-white flex md:items-center gap-2 lg:justify-center my-3 mx-3">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 bg-primary -rotate-45 text-black w-7 h-7  rounded-full">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </span>
+                Rinterio
+            </h3>
+            <p class="lg:text-center lg:mx-auto text-gray-200 text-lg sm:max-w-lg md:max-w-xl my-3 mx-3 ">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
+                wood, sleek metal accents.
+            </p>
+            <!-- link  -->
+            <div class="lg:w-2/3 lg:mx-auto">
+                <div class="grid grid-cols-2 text-white font-semibold md:grid-cols-3 lg:grid-cols-5 gap-0 my-3 mx-3 ">
+                    <p class=""><a href="give a hyper link" class="">Home</a></p>
+                    <p class=""><a href="give a hyper link" class="">Services</a></p>
+                    <p class=""><a href="give a hyper link" class="">Portfolio</a></p>
+                    <p class=""><a href="give a hyper link" class="">Blogs</a></p>
+                    <p class=""><a href="give a hyper link" class="">Contact Us</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
