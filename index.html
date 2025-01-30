@@ -24,12 +24,14 @@
                         clifford: '#da373d',
                         primary: '#ABEF5F',
                         'primary-bg': '#ABEF5F33',
+                        'border-color': 'rgb(233, 233, 233)',
+
                     },
                     fontFamily: {
                         font: ['Manrope', 'sans-serif'],
                     },
                     backgroundImage: {
-                        'hero': "url('./images')",
+                        'input-bg': "url('https://st4.depositphotos.com/1032577/27205/i/450/depositphotos_272050166-stock-photo-white-wall-background-copy-space.jpg')",
 
                     },
                 }
@@ -223,7 +225,8 @@
         <section class="my-28">
             <!-- button  -->
             <div class="mx-auto flex justify-center">
-                <button class="flex items-center shadow-lg px-4 rounded-2xl py-2 font-bold bg-primary-bg my-3"><img
+                <button
+                    class="flex items-center shadow-lg px-4 rounded-2xl py-2 font-bold bg-primary-bg my-3 text-[#494949]"><img
                         src="https://img.icons8.com/ios/50/right--v1.png" alt="" class="w-6 ">Explore our Latest
                     works</button>
             </div>
@@ -312,7 +315,8 @@
         <section class="my-28">
             <!-- button  -->
             <div class="mx-auto flex justify-center">
-                <button class="flex items-center shadow-lg px-4 rounded-2xl py-2 font-bold bg-primary-bg my-3"><img
+                <button
+                    class="flex items-center shadow-lg px-4 rounded-2xl py-2 font-bold bg-primary-bg my-3 text-[#494949]"><img
                         src="https://img.icons8.com/ios/50/right--v1.png" alt="" class="w-6 ">Rinterio News</button>
             </div>
             <!-- title text -->
@@ -431,6 +435,58 @@
                 </div>
             </div>
         </section>
+        <section class="my-28 bg-input-bg bg-cover h-[700px] ">
+            <!-- button  -->
+            <div class="mx-auto flex justify-center">
+                <button
+                    class="flex items-center shadow-lg px-4 rounded-2xl py-2 font-bold bg-primary-bg my-3 "><img
+                        src="https://img.icons8.com/ios/50/right--v1.png" alt="" class="w-6 ">Let’s Connect</button>
+            </div>
+            <!-- title text -->
+            <h2 class="font-extrabold text-3xl text-center my-5 mx-auto ">Let’s Discuss Next Project</h2>
+            <p class="max-w-2xl text-md text-gray-800 text-center mx-auto my-3">The barn house captivates with its blend
+                of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <!-- input div  -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6  sm:mx-auto md:max-w-4xl  ">
+                <!-- input1 -->
+                <div class="placeholder:text-[#A0A0A0] mx-3 md:mx-0 "><input type="text" placeholder="First Name*"
+                        class="input input-bordered w-full w-md rounded-2xl" required />
+                </div>
+                <!-- input2 -->
+                <div class="placeholder:text-[#A0A0A0] mx-3 md:mx-0 "><input type="text" placeholder="Last Name*"
+                        class="input input-bordered w-full w-md rounded-2xl" required />
+                </div>
+                <!-- input3 -->
+                <div class="placeholder:text-[#A0A0A0] mx-3 md:mx-0 "><input type="text" placeholder="Phone Number*"
+                        class="input input-bordered w-full w-md rounded-2xl" required />
+                </div>
+                <!-- input4 -->
+                <div class="placeholder:text-[#A0A0A0] mx-3 md:mx-0 "><input type="email" placeholder="Email*"
+                        class="input input-bordered w-full w-md rounded-2xl" required />
+                </div>
+                <!-- input 5 -->
+                <div class="placeholder:text-[#A0A0A0] mx-3 md:mx-0 md:col-span-2   "><input type="text"
+                        placeholder="White Your Message*"
+                        class="input input-bordered w-full w-md rounded-2xl h-[80px] md:h-[150px]" required />
+                </div>
+                <!-- input 6 -->
+                <!-- button  -->
+                <div class="md:col-span-2">
+                    <div class=" flex md:justify-center mx-3 md:mx-0 ">
+                        <button
+                            class="flex items-center gap-2 md:justify-center shadow-lg px-4 rounded-2xl py-2 font-bold bg-primary  md:w-full ">
+                            Send Email
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor"
+                                class="size-6 bg-black -rotate-45 text-white w-7 h-7  rounded-full">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+        </section>
+
     </main>
 </body>
 
